@@ -1,0 +1,9 @@
+def string_length(string):
+  length = 0
+  for x in string:
+    length += 1
+  return length
+  
+  
+str = "abcd"  
+print(string_length(str))

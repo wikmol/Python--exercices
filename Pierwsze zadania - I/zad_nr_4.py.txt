@@ -1,0 +1,7 @@
+import numpy as np
+
+def circle_field(radius=input("Give me radius")):
+  return np.pi * (int(radius)**2)
+  
+  
+print(circle_field())

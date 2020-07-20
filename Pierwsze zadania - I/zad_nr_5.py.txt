@@ -1,0 +1,4 @@
+x = input("Give me your first name:")
+y = input("Give me your last name:")
+
+print("You are called:",y,x)

@@ -1,0 +1,6 @@
+from collections import Counter
+
+str = "abcdefffggg"
+
+x = Counter(str)
+print(sorted(x.items()))
