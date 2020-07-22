@@ -1,0 +1,9 @@
+def difference(x):
+  difference = 17 -x
+  if x > 17:
+    return 2 * abs(difference)
+  else:
+    return difference
+    
+print(difference(22))
+print(difference(14))

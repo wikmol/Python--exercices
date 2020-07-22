@@ -1,0 +1,8 @@
+def change_string(x):
+  if x[0:2] == "Is":
+    return x
+  
+  return "Is"+ x
+    
+print(change_string("Array"))
+print(change_string("IsEmpty"))
