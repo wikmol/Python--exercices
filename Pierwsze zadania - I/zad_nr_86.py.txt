@@ -1,0 +1,5 @@
+def ascii(x):
+  return ord(x)
+  
+print(ascii("w"))
+  

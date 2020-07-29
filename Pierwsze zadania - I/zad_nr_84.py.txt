@@ -1,0 +1,8 @@
+def count_str(string,n):
+  return string.count(n)
+  
+n = "a"
+con = "mama chodzi do domu"
+
+print(count_str(con,n))
+  

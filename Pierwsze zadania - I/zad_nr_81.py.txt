@@ -1,0 +1,3 @@
+colors = ['red','black','white']
+x = " and ".join(colors)
+print(x)
