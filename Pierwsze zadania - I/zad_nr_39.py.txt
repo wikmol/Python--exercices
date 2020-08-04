@@ -1,0 +1,5 @@
+amt = 10000 
+inte = 3.5 
+years = 7
+V =  amt * (1 + 0.035) ** years
+print(V)

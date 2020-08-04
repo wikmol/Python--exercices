@@ -1,0 +1,10 @@
+def sum_two(x,y):
+  c = x + y
+  if c >= 15 and c<= 20:
+    return 20
+  else:
+    return c
+
+print(sum_two(10, 6))
+print(sum_two(10, 2))
+print(sum_two(10, 12))

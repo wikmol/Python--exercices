@@ -1,0 +1,4 @@
+def is_vowel(n):
+  return n in ('a','e','i','o','u')
+  
+print(is_vowel("a"))

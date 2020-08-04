@@ -1,0 +1,8 @@
+def copies(string,n):
+  if len(string)>=2:
+    return string[0:2] * n
+  else:
+    return string * n
+    
+print(copies('abcdef', 2))
+print(copies('p', 3))
