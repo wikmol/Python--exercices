@@ -1,0 +1,6 @@
+def in_range(number,rang):
+  return number in range(rang[0],rang[1])
+  
+x =9
+rang = [2,8]
+print(in_range(x,rang))

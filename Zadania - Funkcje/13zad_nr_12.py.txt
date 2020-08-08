@@ -1,0 +1,16 @@
+def reverse_string(string):
+  li = [x for x in string]
+  li.reverse()
+  return "".join(li)
+  
+def is_palindrome(x):
+  if x == reverse_string(x):
+    return True
+  else:
+    return False
+    
+x = 'awc'
+y = 'kayak'
+    
+print(is_palindrome(x))
+print(is_palindrome(y))

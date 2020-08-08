@@ -1,0 +1,14 @@
+def low_up_count(string):
+  li = [x for x in string]
+  lower = 0
+  upper = 0
+  for x in li:
+    if x.isupper():
+      upper +=1
+    elif x.islower():
+      lower +=1
+  return "Upper case letters:{}\nLower case  letters:{}".format(upper,lower)
+    
+x = " Nazywam się Andrzej Kowal i mam 36 lat"
+
+print(low_up_count(x))

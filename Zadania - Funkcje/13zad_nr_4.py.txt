@@ -1,0 +1,8 @@
+def reverse_string(x):
+  li = [x for x in string]
+  li.reverse()
+  return "".join(li)
+
+string = 'sialababamak'
+
+print(reverse_string(string))

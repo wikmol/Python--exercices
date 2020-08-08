@@ -1,0 +1,12 @@
+def is_perfect(x):
+  divisors = []
+  for n in range(1,x+1):
+    if x%n == 0:
+      divisors.append(n)
+  if sum(divisors)/2 == x:
+    return True
+  else:
+    return False
+    
+    
+print(is_perfect(28))

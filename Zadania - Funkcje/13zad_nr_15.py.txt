@@ -1,0 +1,6 @@
+def sort_alph(x):
+  li = x.split('-')
+  li.sort()
+  return '-'.join(li)
+  
+print(sort_alph('green-red-black-white' ))

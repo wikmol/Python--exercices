@@ -1,0 +1,10 @@
+def mul_li(x):
+  total = 1
+  for n in x:
+    total *= n
+  return total
+  
+li = [5,8,2]
+w = [4,14,21]
+print(mul_li(li))
+print(mul_li(w))

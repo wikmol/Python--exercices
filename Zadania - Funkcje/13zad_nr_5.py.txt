@@ -1,0 +1,7 @@
+def factorial(x):
+  result = 1
+  for n in range(x,1,-1):
+    result *= n
+  return result
+    
+print(factorial(6))

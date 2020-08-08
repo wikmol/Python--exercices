@@ -1,0 +1,18 @@
+def ispangram(x):
+  alph = set(['a','b','c','d','e','f',
+         'h','g','i','j','k','l',
+         'm','n','o','p','q','r',
+         's','t','u','v','w','x',
+         'y','z' 
+          
+                  ])
+                  
+  li = set([n.lower() for n in x])
+  print(li)
+  print(alph)
+  if alph.issubset(li):
+    return True
+  else:
+    return False
+    
+print(ispangram('The quick brown fox jumps over the lazy dog')) 
